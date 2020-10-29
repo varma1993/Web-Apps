@@ -7,6 +7,9 @@ let ourApp = http.createServer(function func(req,res){
     else if(req.url == "/about"){
         res.end("Nothing about us to know yet")
     }
+    else if(req.url == "/help"){
+        res.end("Help yourslef!")
+    }
     else{
         res.end("Wrong URL")
     }
