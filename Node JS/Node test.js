@@ -17,3 +17,8 @@ let ourApp = http.createServer(function func(req,res){
 
 ourApp.listen(3000)
 
+/*open terminal from menu bar
+navigate to this file's directory
+type "node test.js" and press enter
+
+Open browser and goto localhost:3000*/
