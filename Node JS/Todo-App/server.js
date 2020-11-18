@@ -51,6 +51,7 @@ app.get('/',function(req, res){
     
   </div>
   
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="/browser.js">
 </script>
 
